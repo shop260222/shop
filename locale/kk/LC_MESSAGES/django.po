@@ -1,0 +1,763 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-26 12:44+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: .\phone\forms.py:37 .\phone\models.py:204
+#: .\templates\category\create.html:6 .\templates\category\edit.html:6
+#: .\templates\category\read.html:6 .\templates\delivery\list.html:21
+#: .\templates\report\index.html:120
+msgid "category"
+msgstr "Санат"
+
+#: .\phone\forms.py:71 .\templates\invoice\index.html:14
+#: .\templates\organization\create.html:6 .\templates\organization\edit.html:6
+#: .\templates\organization\read.html:6
+msgid "organization"
+msgstr "Ұйымдастыру"
+
+#: .\phone\models.py:32 .\phone\models.py:122
+msgid "category_title"
+msgstr "Санат атауы"
+
+#: .\phone\models.py:43 .\templates\organization\index.html:12
+msgid "title_organization"
+msgstr "Ұйым атауы"
+
+#: .\phone\models.py:44 .\templates\organization\index.html:13
+msgid "address"
+msgstr "Мекенжайы"
+
+#: .\phone\models.py:45 .\templates\organization\index.html:14
+msgid "phone"
+msgstr "Телефон"
+
+#: .\phone\models.py:64 .\templates\invoice\index.html:12
+msgid "datei"
+msgstr "Күні"
+
+#: .\phone\models.py:65 .\templates\invoice\index.html:13
+#: .\templates\invoice\read.html:14
+msgid "numb"
+msgstr "Сан"
+
+#: .\phone\models.py:84 .\phone\models.py:120 .\phone\models.py:207
+#: .\templates\catalog\details.html:36 .\templates\catalog\read.html:31
+#, fuzzy
+#| msgid "Code"
+msgid "code"
+msgstr "Код"
+
+#: .\phone\models.py:86 .\phone\models.py:123 .\phone\models.py:205
+msgid "catalog_title"
+msgstr "Каталог атауы"
+
+#: .\phone\models.py:87 .\phone\models.py:124 .\phone\models.py:206
+#: .\templates\catalog\details.html:28 .\templates\catalog\read.html:17
+msgid "info"
+msgstr "Ақпарат"
+
+#: .\phone\models.py:88 .\phone\models.py:125
+msgid "catalog_details"
+msgstr "Каталог мәліметтері"
+
+#: .\phone\models.py:89 .\phone\models.py:126 .\phone\models.py:149
+#: .\phone\models.py:170 .\phone\models.py:208
+msgid "price"
+msgstr "Бағасы"
+
+#: .\phone\models.py:90 .\phone\models.py:127 .\phone\models.py:150
+#: .\phone\models.py:171 .\phone\models.py:209
+#: .\templates\catalog\index.html:22 .\templates\catalog\read.html:12
+msgid "quantity"
+msgstr "Саны"
+
+#: .\phone\models.py:91 .\phone\models.py:129
+msgid "photo"
+msgstr "Фото"
+
+#: .\phone\models.py:121
+msgid "category_id"
+msgstr "Санат ID"
+
+#: .\phone\models.py:128 .\templates\catalog\list.html:48
+#: .\templates\report\index.html:45
+msgid "available"
+msgstr "Қол жетімді"
+
+#: .\phone\models.py:130
+msgid "avg_rating"
+msgstr "Орташа рейтинг"
+
+#: .\phone\models.py:131
+msgid "sale_quantity"
+msgstr "Сату саны"
+
+#: .\phone\models.py:147
+msgid "basketday"
+msgstr "Күн"
+
+#: .\phone\models.py:168 .\phone\models.py:202
+#: .\templates\delivery\list.html:19 .\templates\report\index.html:118
+msgid "saleday"
+msgstr "Күн"
+
+#: .\phone\models.py:173 .\phone\models.py:212
+#: .\templates\report\index.html:154
+msgid "rating"
+msgstr "Рейтинг"
+
+#: .\phone\models.py:174 .\phone\models.py:213
+#: .\templates\report\index.html:155
+msgid "review_details"
+msgstr "Мәліметтерді қарап шығу"
+
+#: .\phone\models.py:201 .\templates\delivery\list.html:20
+#: .\templates\report\index.html:80 .\templates\report\index.html:119
+#: .\templates\report\index.html:150
+msgid "username"
+msgstr "Пайдаланушы аты"
+
+#: .\phone\models.py:203
+msgid "catalog_id"
+msgstr "Каталог ID"
+
+#: .\phone\models.py:210
+msgid "total"
+msgstr "Барлығы"
+
+#: .\phone\models.py:211
+msgid "user_id"
+msgstr "Қолданушының ID"
+
+#: .\phone\models.py:214 .\templates\delivery\list.html:23
+msgid "final"
+msgstr "Соңғы нәрсе"
+
+#: .\phone\models.py:237
+msgid "Application accepted for processing"
+msgstr "Өтінім өңдеуге қабылданды"
+
+#: .\phone\models.py:238
+msgid "Goods in transit"
+msgstr "Транзиттегі тауарлар"
+
+#: .\phone\models.py:239
+msgid "Stock item"
+msgstr "Қор заты"
+
+#: .\phone\models.py:240
+msgid "The application is closed, the goods have been delivered"
+msgstr "Өтінім жабылды, тауарлар жеткізілді"
+
+#: .\phone\models.py:243 .\templates\delivery\index.html:18
+#: .\templates\delivery\read.html:18 .\templates\report\index.html:115
+msgid "deliveryday"
+msgstr "Жеткізу күні"
+
+#: .\phone\models.py:244 .\templates\delivery\index.html:19
+#: .\templates\delivery\read.html:22 .\templates\report\index.html:116
+msgid "movement"
+msgstr "Қозғалыс"
+
+#: .\phone\models.py:245 .\templates\delivery\index.html:20
+#: .\templates\delivery\read.html:26 .\templates\report\index.html:117
+msgid "delivery_details"
+msgstr "Жеткізу мәліметтері"
+
+#: .\phone\views.py:159
+msgid "Item added to basket"
+msgstr "Элемент себетке қосылды"
+
+#: .\templates\base.html:38 .\templates\base.html:120
+msgid "Home"
+msgstr "Үй"
+
+#: .\templates\base.html:45 .\templates\base.html:121
+#: .\templates\base.html:141 .\templates\contact.html:8
+msgid "Contacts"
+msgstr "Контактілер"
+
+#: .\templates\base.html:48 .\templates\base.html:122
+#: .\templates\report\index.html:12 .\templates\report\index.html:33
+msgid "Catalog"
+msgstr "Каталог"
+
+#: .\templates\base.html:57 .\templates\category\index.html:3
+#: .\templates\category\index.html:6
+msgid "categorys"
+msgstr "Санаттар"
+
+#: .\templates\base.html:59 .\templates\organization\index.html:3
+#: .\templates\organization\index.html:6
+msgid "organizations"
+msgstr "Ұйымдар"
+
+#: .\templates\base.html:60 .\templates\invoice\index.html:3
+#: .\templates\invoice\index.html:6
+msgid "invoices"
+msgstr "Шот-фактуралар"
+
+#: .\templates\base.html:62 .\templates\base.html:68
+#: .\templates\delivery\list.html:40 .\templates\report\index.html:20
+#: .\templates\report\index.html:109
+msgid "Delivery"
+msgstr "Жеткізу"
+
+#: .\templates\base.html:63 .\templates\report\index.html:3
+#: .\templates\report\index.html:6
+msgid "Reports"
+msgstr "Есептер"
+
+#: .\templates\base.html:66 .\templates\catalog\buy.html:3
+#: .\templates\catalog\buy.html:6
+msgid "My purchases"
+msgstr "Менің сатып алуларым"
+
+#: .\templates\base.html:67 .\templates\catalog\basket.html:4
+#: .\templates\catalog\basket.html:7 .\templates\catalog\list.html:9
+msgid "Basket"
+msgstr "Себет"
+
+#: .\templates\base.html:71 .\templates\registration\my_account.html:4
+#: .\templates\registration\my_account.html:10
+msgid "My account"
+msgstr "Менің аккаунтым"
+
+#: .\templates\base.html:72
+#: .\templates\registration\password_change_form.html:9
+#: .\templates\registration\password_change_form.html:14
+msgid "Change password"
+msgstr "Құпия сөзді өзгерту"
+
+#: .\templates\base.html:74
+msgid "Log out"
+msgstr "Шығу"
+
+#: .\templates\base.html:79
+msgid "Log In"
+msgstr "Кіру"
+
+#: .\templates\base.html:80 .\templates\registration\signup.html:4
+#: .\templates\registration\signup.html:10
+msgid "Sign up"
+msgstr "Тіркелу"
+
+#: .\templates\catalog\basket.html:35 .\templates\catalog\index.html:56
+#: .\templates\category\index.html:26 .\templates\delivery\index.html:36
+#: .\templates\invoice\index.html:37 .\templates\organization\index.html:34
+msgid "Delete"
+msgstr "Жою"
+
+#: .\templates\catalog\basket.html:40 .\templates\catalog\buy.html:50
+#: .\templates\catalog\index.html:17 .\templates\catalog\list.html:67
+#: .\templates\report\index.html:44 .\templates\report\index.html:83
+#: .\templates\report\index.html:153
+msgid "Code"
+msgstr "Код"
+
+#: .\templates\catalog\basket.html:49 .\templates\catalog\basket.html:65
+msgid "Basket total"
+msgstr "Жалпы себет"
+
+#: .\templates\catalog\basket.html:53
+msgid "Go payment"
+msgstr "Төлемге барыңыз"
+
+#: .\templates\catalog\basket.html:64
+msgid "Payment method"
+msgstr "Төлем тәсілі"
+
+#: .\templates\catalog\basket.html:72
+msgid "Card"
+msgstr "Карта"
+
+#: .\templates\catalog\basket.html:76
+msgid "In cash"
+msgstr "Қолма-қол ақшамен"
+
+#: .\templates\catalog\basket.html:85
+msgid "Card number"
+msgstr "Карточка нөмірі"
+
+#: .\templates\catalog\basket.html:92
+msgid "Card holder"
+msgstr "Карта ұстаушы"
+
+#: .\templates\catalog\basket.html:96
+msgid "Expiration date"
+msgstr "Мерзімнің өту күні"
+
+#: .\templates\catalog\basket.html:109
+msgid "Buy"
+msgstr "Сатып алу"
+
+#: .\templates\catalog\basket.html:110 .\templates\catalog\create.html:14
+#: .\templates\catalog\details.html:49 .\templates\catalog\edit.html:14
+#: .\templates\catalog\index.html:11 .\templates\catalog\read.html:37
+#: .\templates\category\create.html:14 .\templates\category\edit.html:14
+#: .\templates\category\read.html:18 .\templates\delivery\create.html:14
+#: .\templates\delivery\edit.html:14 .\templates\delivery\index.html:11
+#: .\templates\delivery\read.html:35 .\templates\invoice\create.html:14
+#: .\templates\invoice\edit.html:14 .\templates\invoice\read.html:20
+#: .\templates\organization\create.html:14
+#: .\templates\organization\edit.html:14 .\templates\organization\read.html:20
+msgid "Back"
+msgstr "Артқа"
+
+#: .\templates\catalog\buy.html:34 .\templates\catalog\details.html:63
+#: .\templates\index.html:131
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: .\templates\catalog\buy.html:38
+msgid "Rating details"
+msgstr "Бағалау мәліметтері"
+
+#: .\templates\catalog\buy.html:42
+msgid "Change Review"
+msgstr "Қарауды өзгерту"
+
+#: .\templates\catalog\buy.html:42
+msgid "Review"
+msgstr "Қарау"
+
+#: .\templates\catalog\create.html:3 .\templates\catalog\index.html:24
+#: .\templates\catalog\index.html:64 .\templates\category\create.html:3
+#: .\templates\delivery\create.html:3 .\templates\delivery\index.html:22
+#: .\templates\invoice\create.html:3 .\templates\organization\create.html:3
+msgid "Create"
+msgstr "Жасау"
+
+#: .\templates\catalog\create.html:6 .\templates\catalog\edit.html:6
+#: .\templates\catalog\index.html:3 .\templates\catalog\index.html:10
+msgid "catalog"
+msgstr "Каталог"
+
+#: .\templates\catalog\create.html:13 .\templates\catalog\edit.html:13
+#: .\templates\category\create.html:13 .\templates\category\edit.html:13
+#: .\templates\delivery\create.html:13 .\templates\delivery\edit.html:13
+#: .\templates\invoice\create.html:13 .\templates\invoice\edit.html:13
+#: .\templates\organization\create.html:13
+#: .\templates\organization\edit.html:13
+msgid "Save"
+msgstr "Сақтау"
+
+#: .\templates\catalog\details.html:3 .\templates\catalog\list.html:43
+msgid "Catalog details"
+msgstr "Каталог мәліметтері"
+
+#: .\templates\catalog\details.html:13 .\templates\index.html:111
+msgid "Sale Quantity"
+msgstr "Сату саны"
+
+#: .\templates\catalog\details.html:16 .\templates\catalog\details.html:55
+#: .\templates\index.html:123 .\templates\report\index.html:24
+#: .\templates\report\index.html:143
+msgid "Reviews"
+msgstr "Пікірлер"
+
+#: .\templates\catalog\details.html:20 .\templates\catalog\list.html:52
+#: .\templates\index.html:108 .\templates\report\index.html:46
+msgid "Avg Rating"
+msgstr "Орташа рейтинг"
+
+#: .\templates\catalog\details.html:32 .\templates\catalog\read.html:21
+msgid "details"
+msgstr "Егжей"
+
+#: .\templates\catalog\details.html:61 .\templates\report\index.html:79
+#: .\templates\report\index.html:149
+msgid "Saleday"
+msgstr "Сатылым күні"
+
+#: .\templates\catalog\details.html:73
+msgid "No reviews yet"
+msgstr "Әзірге шолулар жоқ"
+
+#: .\templates\catalog\edit.html:3 .\templates\catalog\index.html:54
+#: .\templates\category\edit.html:3 .\templates\category\index.html:24
+#: .\templates\delivery\edit.html:3 .\templates\delivery\index.html:34
+#: .\templates\invoice\edit.html:3 .\templates\invoice\index.html:35
+#: .\templates\organization\edit.html:3 .\templates\organization\index.html:32
+msgid "Change"
+msgstr "Өзгерту"
+
+#: .\templates\catalog\index.html:6
+msgid "Invoice"
+msgstr "Шот-фактура"
+
+#: .\templates\catalog\index.html:18 .\templates\report\index.html:39
+#: .\templates\report\index.html:81 .\templates\report\index.html:151
+msgid "Category"
+msgstr "Санат"
+
+#: .\templates\catalog\index.html:19 .\templates\report\index.html:40
+#: .\templates\report\index.html:82 .\templates\report\index.html:152
+msgid "Title"
+msgstr "Тақырып"
+
+#: .\templates\catalog\index.html:20 .\templates\report\index.html:41
+msgid "Info"
+msgstr "Ақпарат"
+
+#: .\templates\catalog\index.html:21 .\templates\report\index.html:42
+#: .\templates\report\index.html:84
+msgid "Price"
+msgstr "Бағасы"
+
+#: .\templates\catalog\index.html:23 .\templates\report\index.html:43
+msgid "Photo"
+msgstr "Фото"
+
+#: .\templates\catalog\index.html:55 .\templates\catalog\read.html:3
+#: .\templates\category\read.html:3 .\templates\delivery\index.html:35
+#: .\templates\delivery\read.html:3 .\templates\invoice\read.html:3
+#: .\templates\organization\read.html:3
+msgid "Read"
+msgstr "Көру"
+
+#: .\templates\catalog\list.html:3 .\templates\catalog\list.html:6
+msgid "Catalog list"
+msgstr "Каталог тізімі"
+
+#: .\templates\catalog\list.html:57
+msgid "Add to basket"
+msgstr "Себетке қосу"
+
+#: .\templates\category\index.html:12
+msgid "Category_title"
+msgstr "Санат атауы"
+
+#: .\templates\category\index.html:14 .\templates\category\index.html:34
+#: .\templates\delivery\index.html:46 .\templates\invoice\index.html:16
+#: .\templates\invoice\index.html:45 .\templates\organization\index.html:16
+#: .\templates\organization\index.html:42
+msgid "Add"
+msgstr "Қосу"
+
+#: .\templates\category\index.html:25 .\templates\invoice\index.html:36
+#: .\templates\organization\index.html:33
+msgid "View"
+msgstr "Көру"
+
+#: .\templates\delivery\create.html:6 .\templates\delivery\edit.html:6
+#: .\templates\delivery\read.html:6
+msgid "delivery"
+msgstr "Жеткізу"
+
+#: .\templates\delivery\index.html:3 .\templates\delivery\index.html:12
+#: .\templates\delivery\list.html:3 .\templates\delivery\list.html:7
+msgid "deliverys"
+msgstr "Жеткізу"
+
+#: .\templates\delivery\index.html:6 .\templates\delivery\list.html:6
+#: .\templates\report\index.html:16 .\templates\report\index.html:73
+msgid "Sale"
+msgstr "Сату"
+
+#: .\templates\delivery\list.html:22 .\templates\report\index.html:121
+msgid "title"
+msgstr "Тақырып"
+
+#: .\templates\delivery\read.html:14
+msgid "delivery_title"
+msgstr "Жеткізу атауы"
+
+#: .\templates\index.html:4
+msgid "App name"
+msgstr "SHOP"
+
+#: .\templates\index.html:54 .\templates\registration\register_done.html:10
+msgid "Welcome"
+msgstr "Қош келдіңіз"
+
+#: .\templates\index.html:56
+msgid "Do not know"
+msgstr ""
+"Nokia, Samsung, Sony, BQ, Vertex, Huawei, OPPO, Lenovo, LG, HTC, Apple, "
+"Meizu, Maxvi, Micromax, One Plus, Philips, Xiaomi, ZTE немесе Texet ұялы "
+"телефондарын қайдан арзан бағамен сатып алатыныңызды білмейсіз. бағасы. "
+"Іздеу жүйелеріне сұраныс жіберіңіз: ұялы телефондарды, бағаларды, "
+"жаңалықтарды немесе көтерме сатып алыңыз және тамаша мәмілелерді іздеңіз. "
+"Ақылды шешім бар! Көтерме және бөлшек ұялы телефондар, ұялы телефондар "
+"каталогы, жаңа ұялы телефондар, флагмандық сенсорлық телефондар және тамаша "
+"қызмет көрсету, бізде бәрі бар."
+
+#: .\templates\index.html:57
+msgid "Description"
+msgstr ""
+"Ұялы (ұялы) телефондардың интернет-дүкені өз тұтынушыларына қоймадан "
+"түпнұсқа ұялы телефондарды көтерме бағамен сатып алу қызметтерін ұсынады. "
+"Қазақстан Республикасында барлық ұялы телефондарды сатуға рұқсат етілген. "
+"Бізбен хабарласқан әрбір клиентті бағалаймыз және құрметтейміз және СІЗДІҢ "
+"қымбат уақытыңызды үнемдеу үшін тапсырыс берген күні барлық қажетті "
+"қызметтерді көрсетуге тырысамыз. Дұрыс телефонды таңдау үшін бизнестен қол "
+"үзіп, дүкенге барудың қажеті жоқ. Біздің кеңесшілер сізге қажетті телефонды "
+"таңдап, тапсырыс берген күні тегін жеткізуді жүзеге асырады (қала тұрғындары "
+"үшін). Сіз сатып алған тауарды Қазақстанның кез келген қаласына жіберуге "
+"мүмкіндігіміз бар. Қазақстанның басқа қалаларына жүк жөнелту кезінде жеткізу "
+"құнын төлеу қажет болатынына назар аударғымыз келеді."
+
+#: .\templates\index.html:64
+msgid "Benefits"
+msgstr "Артықшылықтары"
+
+#: .\templates\index.html:69
+msgid "delivery-rk"
+msgstr "Қазақстан Республикасы бойынша жеткізу"
+
+#: .\templates\index.html:74
+msgid "support7"
+msgstr "Аптасына 7 күн қолдау көрсету"
+
+#: .\templates\index.html:80
+msgid "bonus"
+msgstr "Кумулятивтік бонус жүйесі"
+
+#: .\templates\index.html:86
+msgid "warranty"
+msgstr "Сапа кепілдігі"
+
+#: .\templates\index.html:96
+msgid "Full Catalog"
+msgstr "Толық каталог"
+
+#: .\templates\invoice\create.html:6 .\templates\invoice\edit.html:6
+#: .\templates\invoice\read.html:6
+msgid "invoice"
+msgstr "Шот-фактура"
+
+#: .\templates\invoice\index.html:15 .\templates\invoice\index.html:32
+msgid "catalogs"
+msgstr "Каталогтар"
+
+#: .\templates\registration\logged_out.html:4
+#: .\templates\registration\login.html:4
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_reset_complete.html:4
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_form.html:4
+#: .\templates\registration\register_done.html:4
+msgid "App Name"
+msgstr "SHOP"
+
+#: .\templates\registration\logged_out.html:6
+msgid "Logged out!"
+msgstr "Жүйеден шықтыңыз"
+
+#: .\templates\registration\logged_out.html:7
+msgid "Login again"
+msgstr "Қайтадан кіріңіз"
+
+#: .\templates\registration\login.html:7
+msgid "Incorrect login or password"
+msgstr "Қате логин немесе құпия сөз"
+
+#: .\templates\registration\login.html:12
+msgid "You dont have access"
+msgstr "Сізде рұқсат жоқ"
+
+#: .\templates\registration\login.html:14
+msgid "Login to see this page"
+msgstr "Бұл бетті көру үшін жүйеге кіріңіз"
+
+#: .\templates\registration\login.html:22
+msgid "Authorization"
+msgstr "Авторизация"
+
+#: .\templates\registration\login.html:26
+msgid "Login"
+msgstr "Кіру"
+
+#: .\templates\registration\login.html:31
+msgid "Lost password?"
+msgstr "Құпия сөзді жоғалттыңыз ба?"
+
+#: .\templates\registration\my_account.html:14
+msgid "Save changes"
+msgstr "Өзгерістерді сақтау"
+
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Құпия сөз өзгертілді"
+
+#: .\templates\registration\password_reset_complete.html:6
+msgid "Password reset completed!"
+msgstr "Құпия сөзді қалпына келтіру аяқталды!"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Log in again?"
+msgstr "Қайтадан кіру керек пе?"
+
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Password reset confirmation"
+msgstr "Құпия сөзді қалпына келтіруді растау"
+
+#: .\templates\registration\password_reset_confirm.html:17
+#: .\templates\registration\password_reset_form.html:10
+#: .\templates\registration\password_reset_form.html:15
+msgid "Reset password"
+msgstr "Құпия сөзді қалпына келтіру"
+
+#: .\templates\registration\password_reset_confirm.html:24
+msgid "Please enter (and confirm) your new password."
+msgstr "Жаңа құпия сөзіңізді енгізіңіз (және растаңыз)."
+
+#: .\templates\registration\password_reset_confirm.html:30
+msgid "New password:"
+msgstr "Жаңа Құпия Сөз:"
+
+#: .\templates\registration\password_reset_confirm.html:35
+msgid "Confirm password:"
+msgstr "Құпия сөзді Растау:"
+
+#: .\templates\registration\password_reset_confirm.html:46
+msgid "Password reset failed"
+msgstr "Құпия сөзді қалпына келтіру сәтсіз аяқталды"
+
+#: .\templates\registration\password_reset_confirm.html:47
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Құпия сөзді қалпына келтіру сілтемесі жарамсыз болды, себебі ол әлдеқашан "
+"болған болуы мүмкінпайдаланылды. Жаңа құпия сөзді қалпына келтіруді сұраңыз."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "Password reset"
+msgstr "Құпия сөзді қалпына келтіру"
+
+#: .\templates\registration\password_reset_done.html:7
+msgid "Check your email"
+msgstr "Электрондық поштаңызды тексеріңіз"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Asked password reset email"
+msgstr "Құпия сөзді қалпына келтіру электрондық поштасы сұралды"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Төмендегі сілтеме бойынша өтіңіз:"
+
+#: .\templates\registration\register_done.html:11
+msgid "Your account has been successfully created."
+msgstr "Есептік жазбаңыз сәтті жасалды."
+
+#: .\templates\registration\register_done.html:11
+#: .\templates\registration\signup.html:18
+msgid "Log in"
+msgstr "Кіру"
+
+#: .\templates\registration\signup.html:14
+msgid "Create an account"
+msgstr "Аккаунты жасау"
+
+#: .\templates\registration\signup.html:18
+msgid "Already have an account?"
+msgstr "Есептік жазбаңыз әлдеқашан бар ма?"
+
+#: .\templates\report\index.html:27
+msgid "Get"
+msgstr "Алу"
+
+#: .\templates\report\index.html:85
+msgid "Quantity"
+msgstr "Саны"
+
+#: .\templates\report\index.html:86
+msgid "Total"
+msgstr "Барлығы"
+
+#, fuzzy
+#~ msgid "shipping_rk"
+#~ msgstr "Қазақстан бойынша жеткізу"
+
+#~ msgid "sale"
+#~ msgstr "Сату"
+
+#~ msgid "best_price"
+#~ msgstr "Ең жақсы баға"
+
+#~ msgid "Contact"
+#~ msgstr "Байланыс"
+
+#~ msgid "Purchased"
+#~ msgstr "Сатып алынды"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome1"
+#~ msgstr "Қош келдіңіз"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome3"
+#~ msgstr ""
+#~ "Ұялы (ұялы) телефондардың интернет-дүкені өз тұтынушыларына қоймадан "
+#~ "түпнұсқа ұялы телефондарды көтерме бағамен сатып алу қызметтерін ұсынады. "
+#~ "Қазақстан Республикасында барлық ұялы телефондарды сатуға рұқсат етілген. "
+#~ "Бізбен хабарласқан әрбір клиентті бағалаймыз және құрметтейміз және "
+#~ "СІЗДІҢ қымбат уақытыңызды үнемдеу үшін тапсырыс берген күні барлық "
+#~ "қажетті қызметтерді көрсетуге тырысамыз. Дұрыс телефонды таңдау үшін "
+#~ "бизнестен қол үзіп, дүкенге барудың қажеті жоқ. Біздің кеңесшілер сізге "
+#~ "қажетті телефонды таңдап, тапсырыс берген күні тегін жеткізуді жүзеге "
+#~ "асырады (қала тұрғындары үшін). Сіз сатып алған тауарды Қазақстанның кез "
+#~ "келген қаласына жіберуге мүмкіндігіміз бар. Қазақстанның басқа қалаларына "
+#~ "жүк жөнелту кезінде жеткізу құнын төлеу қажет болатынына назар аударғымыз "
+#~ "келеді."
+
+#, fuzzy
+#~| msgid "homez"
+#~ msgid "homez"
+#~ msgstr "Қош келдіңіз"
+
+#, fuzzy
+#~| msgid "Home"
+#~ msgid "home2"
+#~ msgstr "Үй"
+
+#, fuzzy
+#~| msgid "Home"
+#~ msgid "home3"
+#~ msgstr "Үй"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome2"
+#~ msgstr ""
+#~ "Nokia, Samsung, Sony, BQ, Vertex, Huawei, OPPO, Lenovo, LG, HTC, Apple, "
+#~ "Meizu, Maxvi, Micromax, One Plus, Philips, Xiaomi, ZTE немесе Texet ұялы "
+#~ "телефондарын қайдан арзан бағамен сатып алатыныңызды білмейсіз. бағасы. "
+#~ "Іздеу жүйелеріне сұраныс жіберіңіз: ұялы телефондарды, бағаларды, "
+#~ "жаңалықтарды немесе көтерме сатып алыңыз және тамаша мәмілелерді іздеңіз. "
+#~ "Ақылды шешім бар! Көтерме және бөлшек ұялы телефондар, ұялы телефондар "
+#~ "каталогы, жаңа ұялы телефондар, флагмандық сенсорлық телефондар және "
+#~ "тамаша қызмет көрсету, бізде бәрі бар."
+
+#, fuzzy
+#~| msgid "catalog"
+#~ msgid "Go to catalog"
+#~ msgstr "Каталогқа өтіңіз"
+
+#, fuzzy
+#~| msgid "Reviews"
+#~ msgid "reviews"
+#~ msgstr "Пікірлер"

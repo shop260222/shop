@@ -1,0 +1,765 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-26 12:44+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%"
+"100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\phone\forms.py:37 .\phone\models.py:204
+#: .\templates\category\create.html:6 .\templates\category\edit.html:6
+#: .\templates\category\read.html:6 .\templates\delivery\list.html:21
+#: .\templates\report\index.html:120
+msgid "category"
+msgstr "Категория"
+
+#: .\phone\forms.py:71 .\templates\invoice\index.html:14
+#: .\templates\organization\create.html:6 .\templates\organization\edit.html:6
+#: .\templates\organization\read.html:6
+msgid "organization"
+msgstr "Организация"
+
+#: .\phone\models.py:32 .\phone\models.py:122
+msgid "category_title"
+msgstr "Название категории"
+
+#: .\phone\models.py:43 .\templates\organization\index.html:12
+msgid "title_organization"
+msgstr "Название организации"
+
+#: .\phone\models.py:44 .\templates\organization\index.html:13
+msgid "address"
+msgstr "Адрес"
+
+#: .\phone\models.py:45 .\templates\organization\index.html:14
+msgid "phone"
+msgstr "Телефон"
+
+#: .\phone\models.py:64 .\templates\invoice\index.html:12
+msgid "datei"
+msgstr "Дата"
+
+#: .\phone\models.py:65 .\templates\invoice\index.html:13
+#: .\templates\invoice\read.html:14
+msgid "numb"
+msgstr "№ Накладной"
+
+#: .\phone\models.py:84 .\phone\models.py:120 .\phone\models.py:207
+#: .\templates\catalog\details.html:36 .\templates\catalog\read.html:31
+msgid "code"
+msgstr "Код товара"
+
+#: .\phone\models.py:86 .\phone\models.py:123 .\phone\models.py:205
+msgid "catalog_title"
+msgstr "Каталог товаров"
+
+#: .\phone\models.py:87 .\phone\models.py:124 .\phone\models.py:206
+#: .\templates\catalog\details.html:28 .\templates\catalog\read.html:17
+msgid "info"
+msgstr "Информация"
+
+#: .\phone\models.py:88 .\phone\models.py:125
+msgid "catalog_details"
+msgstr "Подробности"
+
+#: .\phone\models.py:89 .\phone\models.py:126 .\phone\models.py:149
+#: .\phone\models.py:170 .\phone\models.py:208
+msgid "price"
+msgstr "Цена"
+
+#: .\phone\models.py:90 .\phone\models.py:127 .\phone\models.py:150
+#: .\phone\models.py:171 .\phone\models.py:209
+#: .\templates\catalog\index.html:22 .\templates\catalog\read.html:12
+msgid "quantity"
+msgstr "Количество"
+
+#: .\phone\models.py:91 .\phone\models.py:129
+msgid "photo"
+msgstr "Фотография"
+
+#: .\phone\models.py:121
+msgid "category_id"
+msgstr "ID категории"
+
+#: .\phone\models.py:128 .\templates\catalog\list.html:48
+#: .\templates\report\index.html:45
+msgid "available"
+msgstr "Доступное количество"
+
+#: .\phone\models.py:130
+msgid "avg_rating"
+msgstr "Ср. оценка"
+
+#: .\phone\models.py:131
+msgid "sale_quantity"
+msgstr "Продано"
+
+#: .\phone\models.py:147
+msgid "basketday"
+msgstr "Дата помещения в корзину"
+
+#: .\phone\models.py:168 .\phone\models.py:202
+#: .\templates\delivery\list.html:19 .\templates\report\index.html:118
+msgid "saleday"
+msgstr "Дата продажи"
+
+#: .\phone\models.py:173 .\phone\models.py:212
+#: .\templates\report\index.html:154
+msgid "rating"
+msgstr "Оценка"
+
+#: .\phone\models.py:174 .\phone\models.py:213
+#: .\templates\report\index.html:155
+msgid "review_details"
+msgstr "Отзыв"
+
+#: .\phone\models.py:201 .\templates\delivery\list.html:20
+#: .\templates\report\index.html:80 .\templates\report\index.html:119
+#: .\templates\report\index.html:150
+msgid "username"
+msgstr "Логин пользователя"
+
+#: .\phone\models.py:203
+msgid "catalog_id"
+msgstr "ID Каталога"
+
+#: .\phone\models.py:210
+msgid "total"
+msgstr "Сумма"
+
+#: .\phone\models.py:211
+msgid "user_id"
+msgstr "ID пользователя"
+
+#: .\phone\models.py:214 .\templates\delivery\list.html:23
+msgid "final"
+msgstr "Последнее движение"
+
+#: .\phone\models.py:237
+msgid "Application accepted for processing"
+msgstr "Заявка принята в обработку"
+
+#: .\phone\models.py:238
+msgid "Goods in transit"
+msgstr "Товар в пути"
+
+#: .\phone\models.py:239
+msgid "Stock item"
+msgstr "Товар на складе"
+
+#: .\phone\models.py:240
+msgid "The application is closed, the goods have been delivered"
+msgstr "Заявка закрыта, товар доставлен"
+
+#: .\phone\models.py:243 .\templates\delivery\index.html:18
+#: .\templates\delivery\read.html:18 .\templates\report\index.html:115
+msgid "deliveryday"
+msgstr "Дата"
+
+#: .\phone\models.py:244 .\templates\delivery\index.html:19
+#: .\templates\delivery\read.html:22 .\templates\report\index.html:116
+msgid "movement"
+msgstr "Состояние"
+
+#: .\phone\models.py:245 .\templates\delivery\index.html:20
+#: .\templates\delivery\read.html:26 .\templates\report\index.html:117
+msgid "delivery_details"
+msgstr "Подробности"
+
+#: .\phone\views.py:159
+msgid "Item added to basket"
+msgstr "Товар добавлен в корзину"
+
+#: .\templates\base.html:38 .\templates\base.html:120
+msgid "Home"
+msgstr "Главная"
+
+#: .\templates\base.html:45 .\templates\base.html:121
+#: .\templates\base.html:141 .\templates\contact.html:8
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\templates\base.html:48 .\templates\base.html:122
+#: .\templates\report\index.html:12 .\templates\report\index.html:33
+msgid "Catalog"
+msgstr "Каталог"
+
+#: .\templates\base.html:57 .\templates\category\index.html:3
+#: .\templates\category\index.html:6
+msgid "categorys"
+msgstr "Категории"
+
+#: .\templates\base.html:59 .\templates\organization\index.html:3
+#: .\templates\organization\index.html:6
+msgid "organizations"
+msgstr "Организации"
+
+#: .\templates\base.html:60 .\templates\invoice\index.html:3
+#: .\templates\invoice\index.html:6
+msgid "invoices"
+msgstr "Приходные накладные"
+
+#: .\templates\base.html:62 .\templates\base.html:68
+#: .\templates\delivery\list.html:40 .\templates\report\index.html:20
+#: .\templates\report\index.html:109
+msgid "Delivery"
+msgstr "Доставка"
+
+#: .\templates\base.html:63 .\templates\report\index.html:3
+#: .\templates\report\index.html:6
+msgid "Reports"
+msgstr "Отчеты"
+
+#: .\templates\base.html:66 .\templates\catalog\buy.html:3
+#: .\templates\catalog\buy.html:6
+msgid "My purchases"
+msgstr "Мои покупки"
+
+#: .\templates\base.html:67 .\templates\catalog\basket.html:4
+#: .\templates\catalog\basket.html:7 .\templates\catalog\list.html:9
+msgid "Basket"
+msgstr "Корзина"
+
+#: .\templates\base.html:71 .\templates\registration\my_account.html:4
+#: .\templates\registration\my_account.html:10
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: .\templates\base.html:72
+#: .\templates\registration\password_change_form.html:9
+#: .\templates\registration\password_change_form.html:14
+msgid "Change password"
+msgstr "Сменить пароль"
+
+#: .\templates\base.html:74
+msgid "Log out"
+msgstr "Выход"
+
+#: .\templates\base.html:79
+msgid "Log In"
+msgstr "Вход"
+
+#: .\templates\base.html:80 .\templates\registration\signup.html:4
+#: .\templates\registration\signup.html:10
+msgid "Sign up"
+msgstr "Регистрация"
+
+#: .\templates\catalog\basket.html:35 .\templates\catalog\index.html:56
+#: .\templates\category\index.html:26 .\templates\delivery\index.html:36
+#: .\templates\invoice\index.html:37 .\templates\organization\index.html:34
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\catalog\basket.html:40 .\templates\catalog\buy.html:50
+#: .\templates\catalog\index.html:17 .\templates\catalog\list.html:67
+#: .\templates\report\index.html:44 .\templates\report\index.html:83
+#: .\templates\report\index.html:153
+msgid "Code"
+msgstr "Код товара"
+
+#: .\templates\catalog\basket.html:49 .\templates\catalog\basket.html:65
+msgid "Basket total"
+msgstr "Всего на сумму"
+
+#: .\templates\catalog\basket.html:53
+msgid "Go payment"
+msgstr "Купить"
+
+#: .\templates\catalog\basket.html:64
+msgid "Payment method"
+msgstr "Метод оплаты"
+
+#: .\templates\catalog\basket.html:72
+msgid "Card"
+msgstr "Карточка"
+
+#: .\templates\catalog\basket.html:76
+msgid "In cash"
+msgstr "Наличными курьеру"
+
+#: .\templates\catalog\basket.html:85
+msgid "Card number"
+msgstr "Номер карты"
+
+#: .\templates\catalog\basket.html:92
+msgid "Card holder"
+msgstr "Владелец карты"
+
+#: .\templates\catalog\basket.html:96
+msgid "Expiration date"
+msgstr "Дата завершения действия"
+
+#: .\templates\catalog\basket.html:109
+msgid "Buy"
+msgstr "Купить"
+
+#: .\templates\catalog\basket.html:110 .\templates\catalog\create.html:14
+#: .\templates\catalog\details.html:49 .\templates\catalog\edit.html:14
+#: .\templates\catalog\index.html:11 .\templates\catalog\read.html:37
+#: .\templates\category\create.html:14 .\templates\category\edit.html:14
+#: .\templates\category\read.html:18 .\templates\delivery\create.html:14
+#: .\templates\delivery\edit.html:14 .\templates\delivery\index.html:11
+#: .\templates\delivery\read.html:35 .\templates\invoice\create.html:14
+#: .\templates\invoice\edit.html:14 .\templates\invoice\read.html:20
+#: .\templates\organization\create.html:14
+#: .\templates\organization\edit.html:14 .\templates\organization\read.html:20
+msgid "Back"
+msgstr "Назад"
+
+#: .\templates\catalog\buy.html:34 .\templates\catalog\details.html:63
+#: .\templates\index.html:131
+msgid "Rating"
+msgstr "Оценка"
+
+#: .\templates\catalog\buy.html:38
+msgid "Rating details"
+msgstr "Отзыв"
+
+#: .\templates\catalog\buy.html:42
+msgid "Change Review"
+msgstr "Изменить отзыв"
+
+#: .\templates\catalog\buy.html:42
+msgid "Review"
+msgstr "Отзыв"
+
+#: .\templates\catalog\create.html:3 .\templates\catalog\index.html:24
+#: .\templates\catalog\index.html:64 .\templates\category\create.html:3
+#: .\templates\delivery\create.html:3 .\templates\delivery\index.html:22
+#: .\templates\invoice\create.html:3 .\templates\organization\create.html:3
+msgid "Create"
+msgstr "Создать"
+
+#: .\templates\catalog\create.html:6 .\templates\catalog\edit.html:6
+#: .\templates\catalog\index.html:3 .\templates\catalog\index.html:10
+msgid "catalog"
+msgstr "Каталог"
+
+#: .\templates\catalog\create.html:13 .\templates\catalog\edit.html:13
+#: .\templates\category\create.html:13 .\templates\category\edit.html:13
+#: .\templates\delivery\create.html:13 .\templates\delivery\edit.html:13
+#: .\templates\invoice\create.html:13 .\templates\invoice\edit.html:13
+#: .\templates\organization\create.html:13
+#: .\templates\organization\edit.html:13
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\templates\catalog\details.html:3 .\templates\catalog\list.html:43
+msgid "Catalog details"
+msgstr "Подробности"
+
+#: .\templates\catalog\details.html:13 .\templates\index.html:111
+msgid "Sale Quantity"
+msgstr "Продано"
+
+#: .\templates\catalog\details.html:16 .\templates\catalog\details.html:55
+#: .\templates\index.html:123 .\templates\report\index.html:24
+#: .\templates\report\index.html:143
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: .\templates\catalog\details.html:20 .\templates\catalog\list.html:52
+#: .\templates\index.html:108 .\templates\report\index.html:46
+msgid "Avg Rating"
+msgstr "Ср. оценка"
+
+#: .\templates\catalog\details.html:32 .\templates\catalog\read.html:21
+msgid "details"
+msgstr "Подробности"
+
+#: .\templates\catalog\details.html:61 .\templates\report\index.html:79
+#: .\templates\report\index.html:149
+msgid "Saleday"
+msgstr "Дата продажи"
+
+#: .\templates\catalog\details.html:73
+msgid "No reviews yet"
+msgstr "Пока нет отзывов"
+
+#: .\templates\catalog\edit.html:3 .\templates\catalog\index.html:54
+#: .\templates\category\edit.html:3 .\templates\category\index.html:24
+#: .\templates\delivery\edit.html:3 .\templates\delivery\index.html:34
+#: .\templates\invoice\edit.html:3 .\templates\invoice\index.html:35
+#: .\templates\organization\edit.html:3 .\templates\organization\index.html:32
+msgid "Change"
+msgstr "Изменить"
+
+#: .\templates\catalog\index.html:6
+msgid "Invoice"
+msgstr "Накладная"
+
+#: .\templates\catalog\index.html:18 .\templates\report\index.html:39
+#: .\templates\report\index.html:81 .\templates\report\index.html:151
+msgid "Category"
+msgstr "Категория"
+
+#: .\templates\catalog\index.html:19 .\templates\report\index.html:40
+#: .\templates\report\index.html:82 .\templates\report\index.html:152
+msgid "Title"
+msgstr "Название"
+
+#: .\templates\catalog\index.html:20 .\templates\report\index.html:41
+msgid "Info"
+msgstr "Информация"
+
+#: .\templates\catalog\index.html:21 .\templates\report\index.html:42
+#: .\templates\report\index.html:84
+msgid "Price"
+msgstr "Цена"
+
+#: .\templates\catalog\index.html:23 .\templates\report\index.html:43
+msgid "Photo"
+msgstr "Фотография"
+
+#: .\templates\catalog\index.html:55 .\templates\catalog\read.html:3
+#: .\templates\category\read.html:3 .\templates\delivery\index.html:35
+#: .\templates\delivery\read.html:3 .\templates\invoice\read.html:3
+#: .\templates\organization\read.html:3
+msgid "Read"
+msgstr "Просмотреть"
+
+#: .\templates\catalog\list.html:3 .\templates\catalog\list.html:6
+msgid "Catalog list"
+msgstr "Каталог товаров"
+
+#: .\templates\catalog\list.html:57
+msgid "Add to basket"
+msgstr "Добавить в корзину"
+
+#: .\templates\category\index.html:12
+msgid "Category_title"
+msgstr "Название категории"
+
+#: .\templates\category\index.html:14 .\templates\category\index.html:34
+#: .\templates\delivery\index.html:46 .\templates\invoice\index.html:16
+#: .\templates\invoice\index.html:45 .\templates\organization\index.html:16
+#: .\templates\organization\index.html:42
+msgid "Add"
+msgstr "Добавить"
+
+#: .\templates\category\index.html:25 .\templates\invoice\index.html:36
+#: .\templates\organization\index.html:33
+msgid "View"
+msgstr "Просмотреть"
+
+#: .\templates\delivery\create.html:6 .\templates\delivery\edit.html:6
+#: .\templates\delivery\read.html:6
+msgid "delivery"
+msgstr "Доставка"
+
+#: .\templates\delivery\index.html:3 .\templates\delivery\index.html:12
+#: .\templates\delivery\list.html:3 .\templates\delivery\list.html:7
+msgid "deliverys"
+msgstr "Доставки"
+
+#: .\templates\delivery\index.html:6 .\templates\delivery\list.html:6
+#: .\templates\report\index.html:16 .\templates\report\index.html:73
+msgid "Sale"
+msgstr "Продажа"
+
+#: .\templates\delivery\list.html:22 .\templates\report\index.html:121
+msgid "title"
+msgstr "Название"
+
+#: .\templates\delivery\read.html:14
+msgid "delivery_title"
+msgstr "Состояние"
+
+#: .\templates\index.html:4
+msgid "App name"
+msgstr "SHOP"
+
+#: .\templates\index.html:54 .\templates\registration\register_done.html:10
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: .\templates\index.html:56
+msgid "Do not know"
+msgstr ""
+"Не знаете, где Купить сотовые телефоны Nokia, Samsung, Sony, BQ, Vertex, "
+"Huawei, OPPO, Lenovo, LG, HTC, Apple, Meizu, Maxvi , Micromax, One Plus, "
+"Philips, Xiaomi, ZTE или Texet по выгодной цене. Посылаете запрос в "
+"поисковых системах: куплю сотовые телефоны, цены, новинки или оптом, и ищете "
+"выгодные предложения. Есть разумное решение!!! Сотовые телефоны оптом и в "
+"розницу, каталог сотовых телефонов, новинки мобильных телефонов, флагманские "
+"сенсорные телефоны и отличный сервис, это всё  есть у НАС."
+
+#: .\templates\index.html:57
+msgid "Description"
+msgstr ""
+"Интернет магазин сотовых (мобильных) телефонов, предлагает своим клиентам "
+"услуги, при покупки оригинальных мобильных телефонов со склада, по оптовым "
+"ценам. Все мобильные телефоны разрешены для продажи в республики Казахстан. "
+"Мы ценим и уважаем каждого клиента, который обратился к нам, и стараемся "
+"оказать все необходимые услуги в день заказа, с целью сэкономить ВАШЕ "
+"драгоценное время. Вам не нужно отрываться от ваших дел и ехать в магазин, "
+"для того чтобы выбрать нужный телефон. Наши консультанты подберут нужный для "
+"ВАС телефон и осуществят бесплатную доставку в день заказа (для жителей "
+"города). Мы имеем возможность отправлять купленный вами товар в любой город "
+"Казахстана. Хотим обратиться ваше внимание, что при отправлении товара в "
+"другие города Казахстана, вам будет необходимо заплатить стоимость доставки."
+
+#: .\templates\index.html:64
+msgid "Benefits"
+msgstr "Преимущества"
+
+#: .\templates\index.html:69
+msgid "delivery-rk"
+msgstr "Доставка по Республике Казахстан"
+
+#: .\templates\index.html:74
+msgid "support7"
+msgstr "Поддержка 7 дней в неделю"
+
+#: .\templates\index.html:80
+msgid "bonus"
+msgstr "Накопительная бонусная система"
+
+#: .\templates\index.html:86
+msgid "warranty"
+msgstr "Гарантия качества"
+
+#: .\templates\index.html:96
+msgid "Full Catalog"
+msgstr "Весь каталог"
+
+#: .\templates\invoice\create.html:6 .\templates\invoice\edit.html:6
+#: .\templates\invoice\read.html:6
+msgid "invoice"
+msgstr "Приходная накладная"
+
+#: .\templates\invoice\index.html:15 .\templates\invoice\index.html:32
+msgid "catalogs"
+msgstr "Каталог"
+
+#: .\templates\registration\logged_out.html:4
+#: .\templates\registration\login.html:4
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_reset_complete.html:4
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_form.html:4
+#: .\templates\registration\register_done.html:4
+msgid "App Name"
+msgstr "SHOP"
+
+#: .\templates\registration\logged_out.html:6
+msgid "Logged out!"
+msgstr "Вы вышли"
+
+#: .\templates\registration\logged_out.html:7
+msgid "Login again"
+msgstr "Войти снова"
+
+#: .\templates\registration\login.html:7
+msgid "Incorrect login or password"
+msgstr "Неверный логин или пароль"
+
+#: .\templates\registration\login.html:12
+msgid "You dont have access"
+msgstr "У вас нет доступа"
+
+#: .\templates\registration\login.html:14
+msgid "Login to see this page"
+msgstr "Неверный логин или пароль"
+
+#: .\templates\registration\login.html:22
+msgid "Authorization"
+msgstr "Авторизация"
+
+#: .\templates\registration\login.html:26
+msgid "Login"
+msgstr "Вход"
+
+#: .\templates\registration\login.html:31
+msgid "Lost password?"
+msgstr "Забыли пароль?"
+
+#: .\templates\registration\my_account.html:14
+msgid "Save changes"
+msgstr "Сохранить изменения?"
+
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Пароль изменен"
+
+#: .\templates\registration\password_reset_complete.html:6
+msgid "Password reset completed!"
+msgstr "Сброс пароля завершен"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Log in again?"
+msgstr "Войти снова?"
+
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Password reset confirmation"
+msgstr "Подтверждение сброса пароля"
+
+#: .\templates\registration\password_reset_confirm.html:17
+#: .\templates\registration\password_reset_form.html:10
+#: .\templates\registration\password_reset_form.html:15
+msgid "Reset password"
+msgstr "Сброс пароля"
+
+#: .\templates\registration\password_reset_confirm.html:24
+msgid "Please enter (and confirm) your new password."
+msgstr "Пожалуйста, введите (и подтвердите) новый пароль."
+
+#: .\templates\registration\password_reset_confirm.html:30
+msgid "New password:"
+msgstr "Новый пароль:"
+
+#: .\templates\registration\password_reset_confirm.html:35
+msgid "Confirm password:"
+msgstr "Подтвердить пароль:"
+
+#: .\templates\registration\password_reset_confirm.html:46
+msgid "Password reset failed"
+msgstr "Не удалось сбросить пароль"
+
+#: .\templates\registration\password_reset_confirm.html:47
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Ссылка для сброса пароля недействительна, возможно, потому, что она уже "
+"использовалась. Пожалуйста, запросите сброс нового пароля."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+#: .\templates\registration\password_reset_done.html:7
+msgid "Check your email"
+msgstr "Проверьте свою электронную почту"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Asked password reset email"
+msgstr "Электронная почта для сброса пароля"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Перейдите по ссылке ниже:"
+
+#: .\templates\registration\register_done.html:11
+msgid "Your account has been successfully created."
+msgstr "Ваша учетная запись успешно создана."
+
+#: .\templates\registration\register_done.html:11
+#: .\templates\registration\signup.html:18
+msgid "Log in"
+msgstr "Авторизоваться"
+
+#: .\templates\registration\signup.html:14
+msgid "Create an account"
+msgstr "Завести учетную запись"
+
+#: .\templates\registration\signup.html:18
+msgid "Already have an account?"
+msgstr "Уже есть учетная запись?"
+
+#: .\templates\report\index.html:27
+msgid "Get"
+msgstr "Получить"
+
+#: .\templates\report\index.html:85
+msgid "Quantity"
+msgstr "Количество"
+
+#: .\templates\report\index.html:86
+msgid "Total"
+msgstr "Сумма"
+
+#, fuzzy
+#~ msgid "shipping_rk"
+#~ msgstr "Доставка по всему Казахстану"
+
+#~ msgid "sale"
+#~ msgstr "Продажа"
+
+#~ msgid "best_price"
+#~ msgstr "Лучшие цены"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#~ msgid "Purchased"
+#~ msgstr "Куплено"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome1"
+#~ msgstr "Добро пожаловать"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome3"
+#~ msgstr ""
+#~ "Интернет магазин сотовых (мобильных) телефонов, предлагает своим клиентам "
+#~ "услуги, при покупки оригинальных мобильных телефонов со склада, по "
+#~ "оптовым ценам. Все мобильные телефоны разрешены для продажи в республики "
+#~ "Казахстан. Мы ценим и уважаем каждого клиента, который обратился к нам, и "
+#~ "стараемся оказать все необходимые услуги в день заказа, с целью "
+#~ "сэкономить ВАШЕ драгоценное время. Вам не нужно отрываться от ваших дел и "
+#~ "ехать в магазин, для того чтобы выбрать нужный телефон. Наши консультанты "
+#~ "подберут нужный для ВАС телефон и осуществят бесплатную доставку в день "
+#~ "заказа (для жителей города). Мы имеем возможность отправлять купленный "
+#~ "вами товар в любой город Казахстана. Хотим обратиться ваше внимание, что "
+#~ "при отправлении товара в другие города Казахстана, вам будет необходимо "
+#~ "заплатить стоимость доставки."
+
+#, fuzzy
+#~| msgid "homez"
+#~ msgid "homez"
+#~ msgstr "Добро пожаловать"
+
+#, fuzzy
+#~| msgid "Home"
+#~ msgid "home2"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~| msgid "Home"
+#~ msgid "home3"
+#~ msgstr "Главная"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome2"
+#~ msgstr ""
+#~ "Не знаете, где Купить сотовые телефоны Nokia, Samsung, Sony, BQ, Vertex, "
+#~ "Huawei, OPPO, Lenovo, LG, HTC, Apple, Meizu, Maxvi , Micromax, One Plus, "
+#~ "Philips, Xiaomi, ZTE или Texet по выгодной цене. Посылаете запрос в "
+#~ "поисковых системах: куплю сотовые телефоны, цены, новинки или оптом, и "
+#~ "ищете выгодные предложения. Есть разумное решение!!! Сотовые телефоны "
+#~ "оптом и в розницу, каталог сотовых телефонов, новинки мобильных "
+#~ "телефонов, флагманские сенсорные телефоны и отличный сервис, это всё  "
+#~ "есть у НАС."
+
+#, fuzzy
+#~| msgid "catalog"
+#~ msgid "Go to catalog"
+#~ msgstr "Перейти в каталог"
+
+#, fuzzy
+#~| msgid "Reviews"
+#~ msgid "reviews"
+#~ msgstr "Отзывы"
+
+#~ msgid "Organization"
+#~ msgstr "Организация"
