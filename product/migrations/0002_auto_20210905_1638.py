@@ -1045,7 +1045,12 @@ class Migration(migrations.Migration):
                         SELECT catalog.id, catalog.code, catalog.category_id, category.title AS category, catalog.title, catalog.info, catalog.details, catalog.price, catalog.quantity, catalog.photo, 
                         (SELECT AVG(rating) FROM sale WHERE sale.catalog_id = catalog.id) AS avg_rating,
                         (SELECT SUM(quantity) FROM sale WHERE sale.catalog_id = catalog.id) AS sale_quantity,
-                        IIF ((catalog.quantity - (SELECT SUM(quantity) FROM sale WHERE sale.catalog_id = catalog.id)) IS NULL, catalog.quantity, (catalog.quantity - (SELECT SUM(quantity) FROM sale WHERE sale.catalog_id = catalog.id)) ) AS available
+                        CASE 
+                            WHEN (catalog.quantity - (SELECT SUM(quantity) FROM sale WHERE sale.catalog_id = catalog.id)) IS NULL 
+                        THEN catalog.quantity 
+                            ELSE (catalog.quantity - (SELECT SUM(quantity) FROM sale WHERE sale.catalog_id = catalog.id)) 
+                        END
+                        AS available
                         FROM catalog LEFT JOIN category ON catalog.category_id = category.id;"""),
         migrations.RunSQL("""CREATE VIEW view_sale AS
                         SELECT sale.id, username, saleday, catalog_id, view_catalog.category, view_catalog.title, info, code, sale.price, sale.quantity, sale.price*sale.quantity AS total, user_id, rating, sale.details,
