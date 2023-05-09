@@ -33,21 +33,21 @@
 	<nav class="navbar navbar-expand-lg navbar-light justify-content-center">	
 		<div class="container">
 			<a class="navbar-brand" href="{{ HTTP_HOST }}/">{% trans "Home" %}</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="mainMenu">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
+					<li class="nav-link">
 						<a class="dropdown-item" href="{% url 'contact' %}">{% trans "Contacts" %}</a>          
 					</li>
-					<li class="nav-item">
+					<li class="nav-link">
 						<a class="dropdown-item" href="{% url 'catalog_list' %}">{% trans "Catalog" %}</a>
 					</li>
 					{% if user.is_authenticated %}
-					<li class="nav-item dropdown">
+					<li class="nav-link dropdown">
 						<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							{{ user.username }}
+							{{ user.username }} 
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">						
 						{% if request.user.groups.all.0.name == "Managers" %}
